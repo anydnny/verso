@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.start-block{
+    margin-bottom: 6rem;
+}
+.page-main{
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.start-block_header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.9rem;
+    margin-bottom: 16.89rem;
+}
+.start-block_logo svg{
+    width: 9.6%;
+    min-width: 140px;
+    min-height: 3.3rem;
+    margin-right: 8.74%;
+    cursor: pointer;
+}
+.start-block_nav{
+    width: 53.2%;
+    
+}
+.start-block_nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.start-block_nav li{
+    display: inline;
+}
+.start-block_nav a{
+    font-family: DM sans, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+.start-block_nav a:hover{
+    text-decoration: underline;
+}
+.start-block_header button{
+    width: 9.37%;
+    min-width: 13.5rem;
+    height: 3.9rem;
+    margin-left: 9.3%;
+    border: .1rem solid white;
+    border-radius: .7rem;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 1.6rem;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}

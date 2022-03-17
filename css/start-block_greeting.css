@@ -1,0 +1,154 @@
+
+.page-main{
+    margin-bottom: 3.1rem;
+}.start-block_section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.start-block_greeting{
+    margin-bottom: 7.8rem;
+}
+.greeting_header{
+    text-align: center;
+    margin-bottom: 4.2rem;
+}
+.section_title{
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.4rem;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.greeting_header h1{
+    font-size: 5.1rem;
+}
+.center_p{
+    width: 100%;
+    font-family: Mulish,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color:white
+}
+.span-in-p{
+    color: black;
+    cursor: pointer;
+}
+.span-in-p:hover{
+    text-decoration: underline;
+}
+.company-header{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Mulish,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+.start-block_companys {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 14.1rem;
+}
+.start-block_left-company{
+    margin-right:9rem;
+}
+.company-card{
+    width: 12.4%;
+    min-width: 17.9rem;
+    height: 7.1rem;
+    background-color: white;
+    border-radius: .6rem;
+    background-position:  center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: .3s;
+}
+.company-card:hover{
+    box-shadow:0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+.card__margin-bot{
+    margin-bottom: 1.8rem;
+}
+
+.company_gate{
+    background-image: url(../img/gate.png);
+}
+.company_pangolin{
+    background-image: url(../img/pangolin.png);
+    background-color: #FF5F00;
+}
+.company_guy{
+    background-image: url(../img/guy.png);
+    
+}
+.company_dctdao{
+    background-image: url(../img/dcdao.png);
+}
+
+.how-to_screenshots-block{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.screenshot-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42.2%;
+}
+.screenshot-block img{
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: .9rem;
+}
+
+.ellepse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: white;
+    text-align: center;
+    font-family: DM sans, sans-serif;
+    color: #0D6BD8;
+    font-weight: bold;
+    font-size: 2.8rem;
+    border-radius: 50%;
+    align-self: flex-start;
+}
+.screenshots-block_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.screenshots-block_p{
+    text-align: justify;
+    width: 70%;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: white;
+}
+.screenshots-block_p a{
+    color: black;
+    text-decoration: none;
+}
+.screenshots-block_p a:hover{
+    text-decoration: underline;
+}

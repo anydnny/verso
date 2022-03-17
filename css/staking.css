@@ -1,0 +1,16 @@
+.page_staking{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.staking_header .section_title, .staking_header .center_p{
+    color: black;
+    width: 70%;
+    margin: auto;
+}
+.staking_header{
+    margin-bottom: 6.3rem;
+}
